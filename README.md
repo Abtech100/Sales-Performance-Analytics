@@ -8,7 +8,7 @@ This repository contains a clean, structured e-commerce dataset designed for dat
 - **Format:** Excel Workbook (.xlsx)
 - **Status:** Cleaned and ready for immediate analysis (no missing values or structural errors).
 
-## 📈 Dashboard & Key Insights Summary
+## Dashboard & Key Insights Summary
 
 This section provides a high-level overview of the simulated e-commerce performance based on the dataset's dashboard and pivot table aggregations.
 
@@ -32,14 +32,14 @@ This section provides a high-level overview of the simulated e-commerce performa
 * **Reallocate Marketing Budget:** Shift marketing spend away from lower-efficiency channels like Instagram and redirect it toward scaling WhatsApp marketing and capturing more Organic Search traffic.
 * **Regional Targeting:** Replicate the high-efficiency marketing tactics currently used in Rivers and Kano across lower-performing regions like Lagos to improve overall profit margins.
 
-## 🚀 Potential Use Cases
+## Potential Use Cases
 This dataset is highly versatile and can be used for various analytical tasks, including:
 - **Exploratory Data Analysis (EDA):** Uncover seasonal sales trends, top-performing product categories, and regional revenue distribution.
 - **Marketing Analytics:** Deep dive into ROAS by channel to optimize marketing budgets.
 - **Customer Segmentation:** Apply RFM (Recency, Frequency, Monetary) analysis to identify high-value and at-risk customers.
 - **Dashboard Creation:** Seamlessly import the file into BI tools like Tableau, Power BI, or Looker Studio to build interactive reports.
 
-## 💻 Getting Started (Python Example)
+## Getting Started (Python Example)
 To begin exploring this dataset using Python and Pandas, you can use the following code snippet:
 
 ```python
