@@ -1,10 +1,10 @@
-# BoyCodeAfrica Simulated Ecommerce Dataset 1
+# Simulated Ecommerce Dataset
 
 ## Overview
-Welcome! This repository contains a clean, structured e-commerce dataset designed for data analysis, machine learning, and business intelligence projects. It simulates real-world e-commerce transactions, providing an excellent foundation for exploring sales trends, customer purchasing behavior, marketing efficiency, and product performance.
+This repository contains a clean, structured e-commerce dataset designed for data analysis, machine learning, and business intelligence projects. It simulates real-world e-commerce transactions, providing an excellent foundation for exploring sales trends, customer purchasing behavior, marketing efficiency, and product performance.
 
 ## File Information
-- **File Name:** `BoyCodeAfrica Simulated Ecommerce Dataset 1.xlsx`
+- **File Name:** `Simulated Ecommerce Dataset 1.xlsx`
 - **Format:** Excel Workbook (.xlsx)
 - **Status:** Cleaned and ready for immediate analysis (no missing values or structural errors).
 
@@ -32,21 +32,6 @@ This section provides a high-level overview of the simulated e-commerce performa
 * **Reallocate Marketing Budget:** Shift marketing spend away from lower-efficiency channels like Instagram and redirect it toward scaling WhatsApp marketing and capturing more Organic Search traffic.
 * **Regional Targeting:** Replicate the high-efficiency marketing tactics currently used in Rivers and Kano across lower-performing regions like Lagos to improve overall profit margins.
 
-## 📊 Data Dictionary
-
-| Column Name | Description | Data Type |
-| :--- | :--- | :--- |
-| `OrderID` | Unique identifier for each transaction. | String/Numeric |
-| `OrderDate` | The date the order was placed. | Datetime |
-| `CustomerID` | Unique identifier for the customer. | String |
-| `AcquisitionChannel` | The marketing channel through which the customer was acquired (e.g., WhatsApp, Instagram, Organic Search). | String |
-| `ProductCategory` | The broad category of the item sold. | String |
-| `Quantity` | Number of units purchased in the transaction. | Integer |
-| `UnitPrice` | Price per single unit of the product. | Float |
-| `TotalSales` | Total revenue for the transaction ($Quantity \times UnitPrice$). | Float |
-| `Region` | Geographic location or zone where the order was placed (e.g., Lagos, Abuja, Rivers). | String |
-| `MarketingSpend` | The cost associated with acquiring the order/customer. | Float |
-
 ## 🚀 Potential Use Cases
 This dataset is highly versatile and can be used for various analytical tasks, including:
 - **Exploratory Data Analysis (EDA):** Uncover seasonal sales trends, top-performing product categories, and regional revenue distribution.
@@ -72,6 +57,3 @@ print(df.head())
 # Get summary statistics to verify metrics like Total Revenue and Marketing Spend
 print(df.describe())
 ```
-
-## Contribution & License
-Feel free to fork this repository, explore the data, and submit pull requests with your own analytical notebooks or dashboards. 
